@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulari</title>
+        <link rel="stylesheet" type="text/css" href="form.css" media="screen" />
+
+    </head>
+
+    <body>
+        <h1>Curriculum</h1>
+
+    <form action="repuestas form.html" method="post">
+        <fieldset>
+        <fieldset id="f1">
+            <legend id="l1">Informacion Basica</legend>
+            <label>Nombre</label>
+            <br>
+            <input type="text" name="nombre" value="" />
+            <br>
+            <label>Altura en centimetros</label>
+            <br>
+            <input type="number" name="altura" value="" />
+            <br>
+            <label>Email</label>
+            <br>
+            <input type="email" name="email" value="" />
+            <br>
+            <label>Fecha Nacimiento:</label>
+            <br>
+            <input type="date" name="fecha nacimiento" value="" />
+        </fieldset>
+
+        <fieldset id="f2">
+            <legend id="l2">Nacionalidad</legend>
+            <input type="radio" name="nacionalidad" value="Espanola" /> Española
+            <input type="radio" name="nacionalidad" value="Comunitario(UE)" /> Comunitario(UE)
+            <input type="radio" name="nacionalidad" value="No Comunitario" /> No Comunitario
+        </fieldset>
+
+        <fieldset id="f3">
+            <legend id="l3">Estudios</legend>
+            <select>
+                <option value="CFGM">CFGM</option>
+                <option value="CFGS">CFGS</option>
+            </select>
+        </fieldset>
+
+        <fieldset id="f4">
+            <legend id="l4">Idiomas</legend>
+            <input type="checkbox" name="idiomas" value="catalan" /> Catalan
+            <input type="checkbox" name="idiomas" value="castellano" /> Castellano
+            <input type="checkbox" name="idiomas" value="ingles" /> Ingles
+            <input type="checkbox" name="idiomas" value="chino" /> Chino
+        </fieldset>
+
+        <fieldset id="f5">
+           <input type="submit" value="Enviar" />
+           <input type="submit" value="Cancelar" />
+       </fieldset>
+
+       </fieldset>
+    </form>
+
+    </body>
+</html>

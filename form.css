@@ -1,0 +1,48 @@
+
+h1{
+    text-align: center;
+    color: green;
+}
+
+#f1 {
+    background-color: coral;
+}
+
+#f2 {
+    background-color: greenyellow;
+}
+
+#f3 {
+    background-color: pink;
+}
+
+#f4 {
+    background-color: powderblue;
+}
+
+#f5 {
+    background-color: gray;
+}
+
+#l1 {
+    color: blue;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+#l2 {
+    color: orange;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+#l3 {
+    color: red;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+#l4 {
+     color: black;
+     text-decoration: underline;
+}
